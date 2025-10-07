@@ -138,7 +138,7 @@ void program(int argc, char *argv[])
     }
 
     char input[100];
-    printf("Welcome to the vector calculator! Type 'q' to quit. or -h to provide a list of commands\n");
+    printf("Welcome to the vector calculator! Type 'q' to quit. or -h to provide a list of commands to begin\n");
 
     while (1)
     {
