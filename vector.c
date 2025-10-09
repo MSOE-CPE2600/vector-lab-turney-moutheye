@@ -1,7 +1,7 @@
 /*
 * filename: vector.c
 * author: Elias Mouthey
-* date: 10/7/25
+* date: 10/10/25
 * description: vector definition
 * Note: 
 */
@@ -305,7 +305,8 @@ void program(int argc, char *argv[])
 
                     for (int i = 0; values[i]; i++) 
                     {
-                        if (values[i] == ',') values[i] = ' ';
+                        if (values[i] == ',') 
+                        values[i] = ' ';
                     }
 
                     int count = sscanf(values, "%lf %lf %lf", &x, &y, &z);
