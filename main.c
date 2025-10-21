@@ -1,7 +1,7 @@
 /*
 * filename: vector.h
 * author: Elias Mouthey
-* date: 9/30/25
+* date: 10/21/25
 * description: main to hand off to user interface
 * Note: 
 */

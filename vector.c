@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include "vector.h"
 
-#define MAX_VECTORS 10
+
 vector *storage = NULL;
 int v_count = 0;
 char fname[100];
@@ -175,9 +175,11 @@ void program(int argc, char *argv[])
         printf("  list                        - Show all stored vectors\n");
         printf("  clear                       - Remove all stored vectors\n");
         printf("  q                           - Exit the program\n");
-        printf("  a + b, a - b, a * 2, 2 * a\n");
+        printf("  a + b, a - b, a * 2, 2 * a  - Math opperations\n");
+        printf("  load <filename>             - loads in filename of vectors\n");
+        printf("  save <filename>             - saves list as <filename>\n\n");
 
-        return;
+        
     }
 
     char input[100];
@@ -185,6 +187,7 @@ void program(int argc, char *argv[])
 
     while (1)
     {
+        printf("> ");
 
          // Expressions
         char res [10];
