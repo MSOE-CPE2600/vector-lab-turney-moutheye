@@ -1,7 +1,7 @@
 /*
 * filename: vector.h
 * author: Elias Mouthey
-* date: 10/10/25
+* date: 10/21/25
 * description: vector declaration
 * Note: 
 */
@@ -16,10 +16,7 @@ typedef struct vector
     double z;
 } vector;
 
-vector add(vector a, vector b); //add function
-vector sub(vector a, vector b); //subtract function
-vector scale(vector a, double scalar); //scale function
-void help_menu(); //help menu
-void print_result(vector a); //prints the resulting vector name and values
-void updatevect(vector v);
-
+vector add(vector a, vector b);
+vector sub(vector a, vector b);
+vector scale(vector a, double scalar);
+void print_result(vector a);    
